@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template, request
 app = Flask(__name__)
 
 common = {
@@ -8,5 +8,5 @@ common = {
 }
 
 @app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
+def index():
+    return render_template('home.html', common=common)
