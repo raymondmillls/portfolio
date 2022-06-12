@@ -1,3 +1,7 @@
+import io
+import os
+import json
+
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
@@ -9,4 +13,4 @@ common = {
 
 @app.route("/")
 def index():
-    return render_template('home.html', common=common)
+    return render_template("home.html", common=common)
