@@ -115,17 +115,7 @@ ul li a {
     }
 }
 
-@media only screen and (max-width: 600px) {
-    #terminal .terminal .window-title .win-buttons {
-        width: 60px;
-    }
-    #terminal .terminal {
-        height: 400px;
-    }
-    .top-text p {
-        font-size: 40px;
-    }
-}
+
 
 
 
