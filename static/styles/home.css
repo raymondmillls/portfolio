@@ -27,6 +27,11 @@ body {
     width: 50%;
 }
 
+.scroll-wrapper::-webkit-scrollbar {
+    display: none;
+    margin-right: 5%;
+}
+
 .scroll-wrapper {
     height: 100%;
     display: flex;
@@ -114,8 +119,6 @@ ul li a {
         font-size: 70px;
     }
 }
-
-
 
 
 

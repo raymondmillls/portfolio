@@ -11,30 +11,14 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
 
-<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
-<script type="text/javascript" src="{{ url_for('static', filename='js/home.js') }}"></script>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='styles/home.css') }}">
+
 {% endblock %}
 
 {% block body %}
 <div class="container">
     <div class="wrapper fixed-wrapper">
-        <section id="terminal">
-            <div class="window-title">
-                <div class="win-buttons">
-                    <a id="close" class="button" href="#"></a>
-                    <a id="min" class="button" href="#"></a>
-                    <a id="max" class="button" href="#"></a>
-                </div>
-                <span class="title">raymondmillls</span>
-            </div>
-            <div class="message">
-                <span class='prompt'><span class='user'>{{ common.first_name }}</span><span class="at">@</span><span
-                    class="path">/home/{{ common.first_name|lower }}{{ common.last_name|lower }}/</span>><span
-                    class="caret">$</span></span>
-                <span class="typed"></span>
-                <form>><span class="caret">$</span>&nbsp;<input type="text" name="response"/></form>
-            </div>
-        </section>
+        
     </div>
     <div class="wrapper scroll-wrapper">
         <div class="top-text">
@@ -60,7 +44,11 @@
 
         <div class="middle-text">
             <p class="text-content">
-                "Insert description"
+                Lorem ipsum dolor sit amet, sea ei scaevola sententiae adipiscing, his vivendum senserit ad. Te vis perpetua maiestatis expetendis, vim eu vidisse dolorum. Mei mollis noluisse splendide ei. Eos et iudico fabulas accusata, gubergren expetendis theophrastus vim ne.
+
+                Ne mundi principes accommodare sed, mel te impedit adipiscing. Et has facete labitur. Vel ne iisque admodum deserunt, his volutpat cotidieque ea. Eos postea tractatos consetetur ex, ut mel admodum consequuntur, odio eirmod electram vis id.
+
+                Mel quidam noster cu. Facete persius per eu, an adolescens eloquentiam vix, veri probo at per. Cum quas commune ea. Ad mei justo periculis hendrerit.   
             </p>
 
             <p class="text-content">Contact me!</p>
