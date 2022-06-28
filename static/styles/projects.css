@@ -33,3 +33,18 @@
     align-items: center;
 }
 
+.carousel-inner .item {
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.title {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.links {
+    margin:20px 0px 10px 0px;
+}
+
