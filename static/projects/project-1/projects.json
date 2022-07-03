@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {
+            "name": "Project 1",
+            "link": "project-1",
+            "date": "05/30/2022",
+            "short": "Project description",
+            "status": "To be deployed to Netlify",
+            "weight": 1,
+            "tags": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Netlify",
+                "Auto-play loop background"
+            ],
+            "photos": [
+                "/static/projects/project-1/img.jpg"
+            ]
+        }
+    ]
+}
